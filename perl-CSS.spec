@@ -16,7 +16,6 @@ BuildRequires:  perl-devel
 %endif
 BuildRequires:  perl(Parse::RecDescent)
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This module can be used, along with a CSS::Parse::* module, to parse
