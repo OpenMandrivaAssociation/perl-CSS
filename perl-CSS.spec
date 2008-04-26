@@ -1,7 +1,7 @@
 %define module  CSS
 %define name    perl-%{module}
-%define version 1.07
-%define release %mkrel 3
+%define version 1.08
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -10,7 +10,7 @@ Summary:        Object oriented access to Cascading Style Sheets (CSS)
 License:        GPL or Artistic
 Group:          Development/Perl
 Url:            http://search.cpan.org/dist/%{module}
-Source:         http://www.cpan.org/modules/by-module/RSS/%{module}-%{version}.tar.bz2
+Source:         http://search.cpan.org/CPAN/authors/id/I/IA/IAMCAL/%{module}-%{version}.tar.gz
 %if %{mdkversion} < 1010
 BuildRequires:  perl-devel
 %endif
